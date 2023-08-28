@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%),url(images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    
+    
+}
+.icon
+{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+.logo 
+{
+    color: tomato;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    padding-right: 10px;
+    float: right;
+    padding-top: 10px;
+    margin-right: 62px;
+    
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: linear-gradient(to top,rgba(0, 0, 0, 0.295)50%,rgba(0, 0, 0, 0.322)50%);*/
+}
+ul li{
+    
+    list-style: none;
+    margin-left: 42px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20pt;
+   
+    font-size: 16px;
+    background: tomato;
+   padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+Ul li a{
+    padding: 15px;
+    text-decoration:none;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li:hover{
+    box-shadow: 5px 5px 5px rgba(0 , 0, .6),
+-5px -5px 5px rgba(0, 0, 0, .6);
+    background-color: white;
+}
+ul li a:hover{
+    color: tomato;
+     
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    position: relative;
+    color: white;
+}
+.content .par{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Verdana;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:tomato;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 3s ease;
+    font-weight: bold;
+}
+.cn:hover{
+    background-color: #fff;
+
+}
+.content span{
+    color: tomato;
+    font-size: 60px;
+    
+}
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.295)50%,rgba(0, 0, 0, 0.322)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px; 
+    box-shadow: 5px 5px 5px rgba(0 , 0, .6),
+-5px -5px 5px rgba(0, 0, 0, .6);
+
+}
+.form h2{
+    width: 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    text-align: center;
+    color: tomato;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin:2px;
+    padding: 8px;
+    
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid tomato;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: tomato;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+background: white;
+color: tomato;
+} 
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.form .link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center;
+}
+.form .link a{
+    text-decoration: none;
+    color: tomato;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.icon1 ion-icon{
+    color: white;
+    font-size: 25px;
+    padding-left: 18px;
+    padding-top: 10px;
+    transition: 0.3s ease;
+}
+.icon1 ion-icon:hover{
+    color: tomato;
+}
+
+/*-----about-----*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Verdana;
+
+}
+.about-h1{
+
+    font-size: 36px;
+    font-weight: 600;
+}
+.about-p{
+    
+    font-weight: 300;
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.about-h3{
+    text-align: center;
+    font-weight: 600px;
+    margin: 10px 0;
+
+}
+.about-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2);
+
+}
+
+/*------contact-----*/
+.contact{
+    background: #fff3f3;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Verdana;
+    padding-bottom: 100px;
+  
+}
+.contact:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2);
+
+}
+.contact-h1{
+
+    font-size: 36px;
+    font-weight: 600;
+}
+.contact-icon a{
+    text-decoration: none;
+    color:black;
+
+}
+.contact-icon ion-icon{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 20px;
+    color: rebeccapurple;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+.contact-icon ion-icon:hover{
+    color: tomato;
+}
+.made{
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    font-size: 20px;
+
+
+}
+.heart-h1{
+    color: red;
+    font-size: 50px;
+}
+/*-----second page----*/
+.main1{
+width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%),url(images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.form1 {
+    width: 250px;
+    height: 550px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.295)50%,rgba(0, 0, 0, 0.322)50%);
+    position: absolute;
+    top: -45px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px; 
+    box-shadow: 5px 5px 5px rgba(0 , 0, .6),
+-5px -5px 5px rgba(0, 0, 0, .6);
+
+}
+.form1 h2{
+    width: 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    text-align: center;
+    color: tomato;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin:2px;
+    padding: 8px;
+    
+
+}
+.form1 input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid tomato;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+
+
+}
+.form1 input:focus{
+    outline: none;
+}
+.form1 .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center;
+}
+.form1 .link a{
+    text-decoration: none;
+    color: tomato;
+
+}
